@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;1,400;1,600&family=Cairo:slnt,wght@-2,300;-2,400;0,300;0,400&family=Bruno+Ace+SC&family=Coming+Soon&family=Rubik+Glitch&family=Share+Tech+Mono&family=Rubik+80s+Fade&display=swap');
 @font-face {
   font-family: "OCR-A";
   src: url('https://impc-sherluc.github.io/nhlm/OCR-a.ttf') format("truetype");
   font-size:normal;
   font-style:normal;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;1,400;1,600&family=Cairo:slnt,wght@-2,300;-2,400;0,300;0,400&family=Bruno+Ace+SC&family=Coming+Soon&family=Rubik+Glitch&family=Share+Tech+Mono&family=Rubik+80s+Fade&display=swap');
-
 @keyframes flicker{0%{opacity:1;}49%{opacity:1;}50%{opacity:0;}100%{opacity:0;}}
 @keyframes typewriter{from{width: 0;}to{width: calc((var(--nbch) + 1) * 1ch);}}
 @keyframes blinkTextCursor{0%{border-right-color:#00CD00;}49%{border-right-color:#00CD00;}50%{border-right-color: transparent;}100%{border-right-color: transparent;}}
@@ -26,3 +24,4 @@
 .SurchauffePraelia{margin-left:15px;color:#B9B9B9;height:20px;width:140px;display: grid;grid-template-columns: repeat(11, 1fr);grid-column-gap: 3px;}
 .SurchauffePraelia div{border:1px solid currentColor;}
 .SurchauffePraelia div:nth-last-child(-n + 5){color:#A4AE1C;}
+
