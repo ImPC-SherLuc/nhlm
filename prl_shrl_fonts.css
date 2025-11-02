@@ -1,6 +1,7 @@
 @font-face {
   font-family: "OCR-A";
-  src: url(http://www.princexml.com/fonts/larabie/kimberle.ttf) format("truetype");
+  src: url('https://github.com/ImPC-SherLuc/nhlm/blob/main/OCR-a.ttf') format("truetype");
   font-size:normal;
   font-style:normal;
+
 }
