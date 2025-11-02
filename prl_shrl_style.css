@@ -25,10 +25,11 @@
 .SurchauffePraelia{margin-left:15px;color:#B9B9B9;height:20px;width:140px;display: grid;grid-template-columns: repeat(11, 1fr);grid-column-gap: 3px;}
 .SurchauffePraelia div{border:1px solid currentColor;}
 .SurchauffePraelia div:nth-last-child(-n + 5){color:#A4AE1C;}
-.shake span{display:inline-block;animation:tremble normal 6s infinite running linear;}
+.shake span{display:inline-block;animation:tremble normal 1.5s infinite running linear;}
 .shake span:nth-of-type(6n+1){animation-delay:-3s}
 .shake span:nth-of-type(6n+2){animation-delay:-2.4s}
 .shake span:nth-of-type(6n+3){animation-delay:-1.8s;}
 .shake span:nth-of-type(6n+4){animation-delay:-1.2s}
 .shake span:nth-of-type(6n+5){animation-delay:-0.6s}
+
 
