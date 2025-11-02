@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "OCR-A";
+  src: url('https://impc-sherluc.github.io/nhlm/OCR-a.ttf') format("truetype");
+  font-size:normal;
+  font-style:normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;1,400;1,600&family=Cairo:slnt,wght@-2,300;-2,400;0,300;0,400&family=Bruno+Ace+SC&family=Coming+Soon&family=Rubik+Glitch&family=Share+Tech+Mono&family=Rubik+80s+Fade&display=swap');
+
+@keyframes flicker{0%{opacity:1;}49%{opacity:1;}50%{opacity:0;}100%{opacity:0;}}
+@keyframes typewriter{from{width: 0;}to{width: calc((var(--nbch) + 1) * 1ch);}}
+@keyframes blinkTextCursor{0%{border-right-color:#00CD00;}49%{border-right-color:#00CD00;}50%{border-right-color: transparent;}100%{border-right-color: transparent;}}
+@keyframes newsrun{0%{transform: translateX(0);}100%{transform:translateX(-100%);}}
+
+.news_banner{display:flex;position:relative;}
+.news_banner_running{align-items:center;white-space:nowrap;overflow:hidden;color:#3D85C6;font-family: "Cairo", sans-serif;font-size:var(--notsobig-size);line-height: 1em;height: 1.5em;display:flex;padding-bottom:3px;position:relative;width:100%;}
+.runningtext{position: relative;animation: newsrun 110s linear infinite;}
+.runningtext2{position: relative;animation: newsrun 110s linear infinite;}
+.dial{font-family: "Cairo", sans-serif;font-style:normal;font-weight:400;font-size:var(--notsobig-size);color:#E3DAC9;line-height:1em;}
+.elu{font-family: "Coming Soon", cursive;font-style:normal;font-weight:400;font-size:2em;color:#E3DAC9;line-height:1em;}
+.psy{font-family: "Saira", sans-serif;font-style:normal;font-weight:400;font-size:var(--medium-size);color:#B5AEA0;line-height:1em;}
+.csl{width:100%;padding:25px;border:2px solid var(--textColorLight);background: black;font-size:var(--medium-size);font-family: "Share Tech Mono", monotype;color:#00CD00;line-height:110%;}
+.csl-nl{animation:1.05s flicker infinite;}
+.typewriterDisp{display: block;font-family:"Share Tech Mono", monotype;color:#00CD00;letter-spacing:0;border-right: 1ch solid #00CD00;white-space:nowrap;overflow: hidden;animation: typewriter 4s steps(var(--nbch)) 30s 1 normal both, blinkTextCursor 1.10s steps(var(--nbch)) infinite normal;}
+.SherLuc nhlmChat-txt{background:black;}
+.SurchauffePraelia{margin-left:15px;color:#B9B9B9;height:20px;width:140px;display: grid;grid-template-columns: repeat(11, 1fr);grid-column-gap: 3px;}
+.SurchauffePraelia div{border:1px solid currentColor;}
+.SurchauffePraelia div:nth-last-child(-n + 5){color:#A4AE1C;}
