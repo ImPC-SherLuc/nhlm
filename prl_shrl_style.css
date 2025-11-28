@@ -18,7 +18,7 @@
 .runningtext2{position: relative;animation: newsrun 110s linear infinite;}
 .dial{font-family: "Cairo", sans-serif;font-style:normal;font-weight:400;font-size:var(--notsobig-size);color:#E3DAC9;line-height:1em;}
 .elu{font-family: "Coming Soon", cursive;font-style:normal;font-weight:400;font-size:2em;color:#E3DAC9;line-height:1em;}
-.trueElu{font-family: "Zain", cursive;font-style:normal;font-weight:400;font-size:1.75em;color:#9CAD3E;line-height:1em;}
+.trueElu{font-family: "Iansui", cursive;font-style:normal;font-weight:400;font-size:1.25em;color:#9CAD3E;line-height:1em;}
 .psy{font-family: "Saira", sans-serif;font-style:normal;font-weight:400;font-size:var(--medium-size);color:#B5AEA0;line-height:1em;}
 .csl{width:100%;padding:25px;border:2px solid var(--textColorLight);background: black;font-size:var(--medium-size);font-family: "Share Tech Mono", monotype;color:#00CD00;line-height:110%;}
 .csl-nl{animation:1.05s flicker infinite;}
@@ -33,6 +33,7 @@
 .shake span:nth-of-type(6n+3){animation-delay:-1.8s;}
 .shake span:nth-of-type(6n+4){animation-delay:-1.2s}
 .shake span:nth-of-type(6n+5){animation-delay:-0.6s}
+
 
 
 
