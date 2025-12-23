@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;1,400;1,600&family=Cairo:slnt,wght@-2,300;-2,400;0,300;0,400&family=Bruno+Ace+SC&family=Iansui&family=Coming+Soon&family=Rubik+Glitch&family=Share+Tech+Mono&family=Rubik+80s+Fade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,400;0,600;1,400;1,600&family=Cairo:slnt,wght@-2,300;-2,400;0,300;0,400&family=Modern+Antiqua&family=Bruno+Ace+SC&family=Iansui&family=Coming+Soon&family=Rubik+Glitch&family=Share+Tech+Mono&family=Rubik+80s+Fade&display=swap');
 @font-face {
   font-family: "OCR-A";
   src: url('https://impc-sherluc.github.io/nhlm/OCR-a.ttf') format("truetype");
@@ -22,6 +22,7 @@
 .psy{font-family: "Saira", sans-serif;font-style:normal;font-weight:400;font-size:var(--medium-size);color:#B5AEA0;line-height:1em;}
 .csl{width:100%;padding:25px;border:2px solid var(--textColorLight);background: black;font-size:var(--medium-size);font-family: "Share Tech Mono", monotype;color:#00CD00;line-height:110%;}
 .csl-nl{animation:1.05s flicker infinite;}
+.dey{font-family:'Modern Antiqua',cursive;font-size:1.05em;color:#2F4F4F;}
 .typewriterDisp{display: block;font-family:"Share Tech Mono", monotype;color:#00CD00;letter-spacing:0;border-right: 1ch solid #00CD00;white-space:nowrap;overflow: hidden;animation: typewriter 4s steps(var(--nbch)) 30s 1 normal both, blinkTextCursor 1.10s steps(var(--nbch)) infinite normal;}
 .SherLuc nhlmChat-txt{background:black;}
 .SurchauffePraelia{margin-left:15px;color:#B9B9B9;height:20px;width:140px;display: grid;grid-template-columns: repeat(11, 1fr);grid-column-gap: 3px;}
@@ -42,6 +43,7 @@
 .glitch::before,.glitch::after{padding:30px;color:currentColor;content:attr(data-text);background:inherit;position:absolute;width:100%;height:100%;overflow:hidden;top:0;}
 .glitch::before{left:3px;text-shadow:-2px 0 red;animation:glitch-animation-1 2s steps(20) 0s infinite alternate-reverse;}
 .glitch::after{left:-3px;text-shadow:-2px 0 blue;animation:glitch-animation-2 2s steps(20) 0s infinite alternate-reverse;}
+
 
 
 
