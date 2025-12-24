@@ -1,0 +1,6 @@
+@keyframes animate-letter {to {--timer: 16;}}
+
+@property --timer {syntax: "<integer>";inherits: false;initial-value: 1;}
+
+.cypher{font-family:'Monospace',monospace;font-size:0.9rem;counter-reset: timer-1 calc(var(--timer) + 9) timer-2 calc(var(--timer) + 8 ) timer-3 calc(var(--timer) + 7) timer-4 calc(var(--timer) + 6) timer-5 calc(var(--timer) + 5) timer-6 calc(var(--timer) + 4) timer-7 calc(var(--timer) + 3) timer-8 calc(var(--timer) + 2) timer-9 calc(var(--timer) + 1) timer-10 calc(var(--timer) + 0);animation:animate-letter 2s linear infinite running}
+.cypher:before{content: counter(timer-1, lower-alpha) counter(timer-4, lower-alpha) counter(timer-8, lower-alpha) counter(timer-6, lower-alpha) counter(timer-3, lower-alpha) counter(timer-7, lower-alpha) counter(timer-9, lower-alpha) counter(timer-2, lower-alpha) counter(timer-5, lower-alpha) counter(timer-10, lower-alpha);}
