@@ -46,7 +46,7 @@
 prlChat-auteur:hover .prlCrypted:before{content:'Praelia';}
 .prlChat,prlChat{display:inline-flex;gap:5px;}
 .prlChat-avatar{width:50px;height:50px;border:1px solid #00cd00;max-height:50px;object-fit:cover;background:black;}
-prlChat-msg-triomphe{border-left:6px solid #00cd00;border-top:2px solid #00cd00;border-left:2px solid #00cd00;border-bottom:2px solid #00cd00;width:500px;max-width:500px;}
+prlChat-msg-triomphe{border-left:6px solid #00cd00;border-top:2px solid #00cd00;border-right:2px solid #00cd00;border-bottom:2px solid #00cd00;width:500px;max-width:500px;}
 prlChat2-msg-triomphe{border-right:6px solid #00cd00;border-top:2px solid #00cd00;border-left:2px solid #00cd00;border-bottom:2px solid #00cd00;width:500px;max-width:500px;}
 prlChat-auteur{border-bottom:1px solid #00cd00;display:flex;width:100%;justify-content:flex-start;align-items:center;background-color:black;padding:10px;font-family:'Orbitron',sans-serif;font-size:0.625rem;color:#00cd00;text-transform:uppercase;letter-spacing:0.5em;}
 prlChat2-auteur{border-bottom:1px solid #00cd00;display:flex;width:100%;justify-content:flex-end;align-items:center;background-color:black;padding:10px;font-family:'Orbitron',sans-serif;font-size:0.625rem;color:#00cd00;text-transform:uppercase;letter-spacing:0.5em;}
@@ -61,6 +61,7 @@ prlChat2-txt{display:block;width:100%;padding:8px 15px;font-family:'Orbitron',sa
 .glitch::before,.glitch::after{padding:30px;color:currentColor;content:attr(data-text);background:inherit;position:absolute;width:100%;height:100%;overflow:hidden;top:0;}
 .glitch::before{left:3px;text-shadow:-2px 0 red;animation:glitch-animation-1 2s steps(20) 0s infinite alternate-reverse;}
 .glitch::after{left:-3px;text-shadow:-2px 0 blue;animation:glitch-animation-2 2s steps(20) 0s infinite alternate-reverse;}
+
 
 
 
