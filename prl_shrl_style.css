@@ -41,7 +41,7 @@
 .shake span:nth-of-type(6n+5){animation-delay:-0.6s}
 
 /*secure chat*/
-.prlCrypted{counter-reset: timer-1 calc(var(--timer) + 9) timer-2 calc(var(--timer) + 8 ) timer-3 calc(var(--timer) + 7) timer-4 calc(var(--timer) + 6) timer-5 calc(var(--timer) + 5) timer-6 calc(var(--timer) + 4) timer-7 calc(var(--timer) + 3) timer-8 calc(var(--timer) + 2) timer-9 calc(var(--timer) + 1) timer-10 calc(var(--timer) + 0);animation:animate-letter 2s linear infinite running}
+.prlCrypted{font-size:0.9rem;counter-reset: timer-1 calc(var(--timer) + 9) timer-2 calc(var(--timer) + 8 ) timer-3 calc(var(--timer) + 7) timer-4 calc(var(--timer) + 6) timer-5 calc(var(--timer) + 5) timer-6 calc(var(--timer) + 4) timer-7 calc(var(--timer) + 3) timer-8 calc(var(--timer) + 2) timer-9 calc(var(--timer) + 1) timer-10 calc(var(--timer) + 0);animation:animate-letter 2s linear infinite running}
 .prlCrypted:before{font-family:"Share Tech Mono",monospace;content: counter(timer-1, lower-alpha) counter(timer-4, lower-alpha) counter(timer-8, lower-alpha) counter(timer-6, lower-alpha) counter(timer-3, lower-alpha) counter(timer-7, lower-alpha) counter(timer-9, lower-alpha) counter(timer-2, lower-alpha) counter(timer-5, lower-alpha) counter(timer-10, lower-alpha);}
 prlChat-auteur:hover .prlCrypted:before{content:'Praelia';}
 .prlChat,prlChat{display:inline-flex;gap:5px;}
@@ -58,6 +58,7 @@ prlChat-txt{display:block;width:100%;padding:8px 15px;font-family:'Orbitron',san
 .glitch::before,.glitch::after{padding:30px;color:currentColor;content:attr(data-text);background:inherit;position:absolute;width:100%;height:100%;overflow:hidden;top:0;}
 .glitch::before{left:3px;text-shadow:-2px 0 red;animation:glitch-animation-1 2s steps(20) 0s infinite alternate-reverse;}
 .glitch::after{left:-3px;text-shadow:-2px 0 blue;animation:glitch-animation-2 2s steps(20) 0s infinite alternate-reverse;}
+
 
 
 
