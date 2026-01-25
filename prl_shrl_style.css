@@ -6,6 +6,12 @@
   font-size:normal;
   font-style:normal;
 }
+@font-face {
+  font-family: "HelpMe";
+  src: url('https://impc-sherluc.github.io/nhlm/HelpMe.ttf') format("truetype");
+  font-size:normal;
+  font-style:normal;
+}
 
 @keyframes flicker{0%{opacity:1;}49%{opacity:1;}50%{opacity:0;}100%{opacity:0;}}
 @keyframes typewriter{from{width: 0;}to{width: calc((var(--nbch) + 1) * 1ch);}}
@@ -62,6 +68,7 @@ prlChat2-txt{display:block;width:100%;padding:8px 15px;font-family:'Orbitron',sa
 .glitch::before,.glitch::after{padding:30px;color:currentColor;content:attr(data-text);background:inherit;position:absolute;width:100%;height:100%;overflow:hidden;top:0;}
 .glitch::before{left:3px;text-shadow:-2px 0 red;animation:glitch-animation-1 2s steps(20) 0s infinite alternate-reverse;}
 .glitch::after{left:-3px;text-shadow:-2px 0 blue;animation:glitch-animation-2 2s steps(20) 0s infinite alternate-reverse;}
+
 
 
 
