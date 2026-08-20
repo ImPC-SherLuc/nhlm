@@ -12,6 +12,12 @@
   font-size:normal;
   font-style:normal;
 }
+@font-face {
+  font-family: "prlNightmare";
+  src: url('https://impc-sherluc.github.io/nhlm/DK Face Your Fears.ttf') format("truetype");
+  font-size:normal;
+  font-style:normal;
+}
 
 @keyframes flicker{0%{opacity:1;}49%{opacity:1;}50%{opacity:0;}100%{opacity:0;}}
 @keyframes typewriter{from{width: 0;}to{width: calc((var(--nbch) + 1) * 1ch);}}
